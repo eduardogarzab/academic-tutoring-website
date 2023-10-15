@@ -81,18 +81,18 @@ body {
 .hero__main {
 	display: flex;
 	flex-direction: column;
-	gap: 40px;
+	gap: 30px;
 }
 
 .hero__figure {
 	order: -1;
-	padding: 20px 0;
+	padding: 10px 0;
 }
 
 .hero__img {
-	width: 100%;
+	width: 80%;
 	display: block;
-	max-width: 400px;
+	max-width: 350px;
 	margin: 0 auto;
 }
 
@@ -327,6 +327,7 @@ body {
 	}
 
 	.hero__img {
+		width: 100%;
 		max-width: 450px;
 	}
 
