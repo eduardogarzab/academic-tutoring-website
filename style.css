@@ -16,7 +16,7 @@ body {
 
 .body-no-scroll {
 	overflow-y: hidden;
-	-webkit-overflow-scrolling: touch;
+	touch-action: none;
 }
 
 /* Header */
