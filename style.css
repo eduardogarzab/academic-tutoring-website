@@ -141,7 +141,7 @@ body {
 	height: 100%;
 	box-sizing: border-box;
 	background-color: rgba(32, 33, 36, 0.6);
-	padding: 72px;
+	padding: 72px 25px;
 	z-index: 9999;
 }
 
@@ -156,7 +156,7 @@ body {
 .DqVnFf {
 	position: fixed;
 	top: 26px;
-	right: 72px;
+	right: 25px;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
