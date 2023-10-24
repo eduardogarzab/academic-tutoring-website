@@ -14,6 +14,10 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
+.body-no-scroll{
+	overflow-y: hidden;
+}
+
 /* Header */
 
 .container {
@@ -401,5 +405,4 @@ body {
 	.footer {
 		text-align: center;
 	}
-	
 }
