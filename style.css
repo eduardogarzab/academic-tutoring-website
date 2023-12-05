@@ -124,7 +124,8 @@ body {
 	background-color: var(--blue);
 	color: #fff;
 	text-decoration: none;
-	font-size: 1rem;
+	font-size: 1.2rem;
+	font-weight: 500;
 	padding: 1em 4em;
 	border: none;
 
@@ -134,7 +135,7 @@ body {
 }
 
 .boton-reservar:hover {
-    background-color: #1a3080;
+	background-color: #1a3080;
 }
 
 /* about */
@@ -175,6 +176,7 @@ body {
 .paragraph {
 	line-height: 1.5;
 	font-weight: 300;
+	font-size: 1.1rem;
 }
 
 /* learn */
@@ -205,6 +207,7 @@ body {
 
 .footer {
 	background-color: var(--background);
+	text-align: center;
 }
 
 .footer__contact {
@@ -213,7 +216,7 @@ body {
 	gap: 1rem;
 	list-style: none;
 	padding: 0;
-	margin-top: 3rem;
+	margin-bottom: 3rem;
 }
 
 .footer__link {
@@ -227,18 +230,8 @@ body {
 	background-color: var(--color);
 }
 
-.footer__item:nth-of-type(1) {
-	--color: #1da1f2;
-}
-.footer__item:nth-of-type(2) {
-	--color: #c32aa3;
-}
-.footer__item:nth-of-type(3) {
-	--color: #ff0000;
-}
-
 .footer__img {
-	width: 28px;
+	width: 72px;
 }
 
 @media (min-width: 768px) {
@@ -286,6 +279,8 @@ body {
 	.hero__img {
 		width: 100%;
 		max-width: 450px;
+		margin: 0 0;
+		float: right;
 	}
 
 	.hero__texts {
