@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<!-- OG Meta Tags -->
+		<meta property="og:title" content="EduAsesorías" />
+		<meta property="og:description" content="Asesorías personalizadas uno a uno para estudiantes de primaria, secundaria y preparatoria." />
+		<meta property="og:url" content="https://edu-asesorias.herokuapp.com/" />
+
 		<meta charset="UTF-8" />
 		<meta name="author" content="Eduardo Garza" />
 		<meta name="description" content="Asesorías Personalizadas" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>EduAsesora</title>
+		<title>EduAsesorías</title>
 		<link rel="stylesheet" href="style.css" />
 		<link rel="shortcut icon" href="./assets/icons8-academy-48.png" type="image/x-icon" />
 	</head>
@@ -29,14 +34,25 @@
 
 			<section class="hero__main container container--hero">
 				<article class="hero__texts">
-					<h1 class="hero__title">Asesorías Académicas</h1>
+					<h1 class="hero__title">EduAsesorías</h1>
 					<p class="hero__paragraph">Asesorías personalizadas uno a uno para estudiantes de primaria, secundaria y preparatoria.</p>
 
-					<!-- Calendly link widget begin -->
-					<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
-					<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-					<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/eduardo-garzab/asesorias?hide_gdpr_banner=1'});return false;" class="boton-reservar">Agendar un espacio</a>
-					<!-- Calendly link widget end -->
+					<!-- Google Calendar Appointment Scheduling begin -->
+					<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+					<script>
+						(function () {
+							var target = document.currentScript;
+							window.addEventListener("load", function () {
+								calendar.schedulingButton.load({
+									url: "https://calendar.google.com/calendar/appointments/schedules/AcZssZ0rPR1gTLjn_seaM6278MX4JFIY9OVsw9uxqPT5ywOHGmuwFeGWoVGty_2YJo6TD1kklOxCWnTF?gv=true",
+									color: "#2541b2",
+									label: "Reservar una cita",
+									target,
+								});
+							});
+						})();
+					</script>
+					<!-- end Google Calendar Appointment Scheduling -->
 				</article>
 
 				<figure class="hero__figure">

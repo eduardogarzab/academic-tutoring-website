@@ -234,7 +234,98 @@ body {
 	width: 72px;
 }
 
+/* Google Calendar Button */
+
+.qxCTlb {
+	background-color: var(--blue);
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 500;
+	padding: 1em 4em;
+	border: none;
+
+	justify-self: center;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.qxCTlb:hover {
+	background-color: #1a3080;
+}
+
+.hur54b {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	background-color: rgba(32, 33, 36, 0.6);
+	padding-right: 18px;
+	padding-left: 18px;
+	padding-top: 54px;
+	padding-bottom: 18px;
+	z-index: 9999;
+}
+
+.mmGMM {
+	border: none;
+	border-radius: 8px;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+}
+
+.Xfsokf {
+	position: fixed;
+	top: 9px;
+	right: 18px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	border: none;
+	border-radius: 18px;
+	background-color: #3c4043;
+	height: 36px;
+	padding: 16px;
+	cursor: pointer;
+}
+
+.L0Dvsd {
+	color: white;
+	font-size: 18px;
+	margin-right: 8px;
+}
+
+.uE25ec {
+	font-size: 14px;
+	font-family: "Google Sans", Arial, sans-serif;
+	font-weight: 500;
+	letter-spacing: 0.25px;
+	color: white;
+}
+
 @media (min-width: 768px) {
+	.qxCTlb {
+		justify-self: start;
+	}
+
+	.hur54b {
+		padding-right: 36px;
+		padding-left: 36px;
+		padding-top: 54px;
+		padding-bottom: 36px;
+	}
+
+	.Xfsokf {
+		top: 9px;
+		right: 36px;
+	}
+
 	.nav__menu {
 		display: none;
 	}
